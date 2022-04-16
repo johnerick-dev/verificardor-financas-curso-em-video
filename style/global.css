@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(197, 207, 216);
+    text-align: center;
+    font-size: 14pt;  
+}
+header{
+    margin-top: 20px;
+}
+footer {
+    width: 250px;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid;  
+}
+button {
+    width: 60px;
+    margin-left: 90px;
+}
+#nome1 {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    margin: auto;  
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 16pt;  
+}
+#name {
+    height: 25px;
+    font-size: 12pt;
+}
+.modelo {
+    display: flex;
+    width: 1030px;
+    align-items: center;
+    margin: auto;
+}
+

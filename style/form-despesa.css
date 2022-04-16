@@ -1,0 +1,66 @@
+.form2 {
+    border: 1px solid;
+    width: 500px;
+    height: auto;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 50px;
+    background-color: rgb(228, 115, 62);
+    border-radius: 15px;
+    color: white;
+}   
+.container {
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px;        
+}
+.despesa {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    width: 220px;
+}
+.valor-despesa {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    width: 80px
+}
+.despesa-total2 {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 50px;
+    margin:auto;
+    margin-left: 98px;
+    justify-content: space-around;
+    background-color: rgb(221, 63, 49);
+    color: aliceblue;
+    border-radius: 10px;
+}
+#despesa-total {
+    width: 70px;
+    margin-left: 118px;
+}
+#name {
+    width: 250px;
+    margin-left: 5px;
+}
+#despesa, #valor-despesa {
+    margin: 2px 3px;
+}
+.despesa-total p{
+    margin-left: 8px;
+}
+#despesa-total {
+    width: 70px;
+    height: 20px;
+    margin-left: 55px;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 3px;
+}

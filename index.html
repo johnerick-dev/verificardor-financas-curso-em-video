@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/global.css">
+        <link rel="stylesheet" href="./style/form-receita.css">
+        <link rel="stylesheet" href="./style/form-despesa.css">
+        <link rel="stylesheet" href="./style/resultado.css">
+        <link rel="stylesheet" href="./style/responsivo.css">
+        <title>Calculadora de Finanças</title>
+    </head>
+    <body>
+        <header>
+            <h1>Controle de Finanças</h1>
+        </header>   
+    
+        <div id="nome1">
+            <p>Digite seu nome:</p>
+            <input type="text" id="name">
+        </div>
+            
+        <div class="modelo">
+            <div class="form1">
+                <div class="container">
+                    <div class="receita">
+                        <p>Digite suas receitas</p>
+                        <input type="text" id="receita">
+                        <input type="text" id="receita">
+                        <input type="text" id="receita">
+                        <input type="text" id="receita">
+                        <input type="text" id="receita">
+                    </div>
+                    <div class="valor-receita">
+                        <p>Valor</p>
+                        <input type="number" id="valor-receita" class="txt1"/>
+                        <input type="number" id="valor-receita" class="txt2"/>
+                        <input type="number" id="valor-receita" class="txt3"/>
+                        <input type="number" id="valor-receita" class="txt4"/>
+                        <input type="number" id="valor-receita" class="txt5"/>
+                    </div>
+                </div>
+                <div class="receita-total">
+                    <button id="botao" onclick="clicar()">Somar</button>
+                    <div id="receita-total"></div> 
+                </div>
+            </div>
+
+            <div class="form2">
+                <div class="container">
+                    <div class="despesa">
+                        <p>Digite suas despesas</p>
+                        <input type="text" id="despesa">
+                        <input type="text" id="despesa">
+                        <input type="text" id="despesa">
+                        <input type="text" id="despesa">
+                        <input type="text" id="despesa">
+                    </div>
+                    <div class="valor-despesa">
+                        <p>Valor</p>
+                        <input type="number" id="valor-despesa" class="txt6">
+                        <input type="number" id="valor-despesa" class="txt7">
+                        <input type="number" id="valor-despesa" class="txt8">
+                        <input type="number" id="valor-despesa" class="txt9">
+                        <input type="number" id="valor-despesa" class="txt0">
+                    </div>
+                </div>
+                <div class="despesa-total2">
+                    <button id="botao" onclick="clicar2()">Somar</button>
+                    <div id="despesa-total"></div>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div id="resultado"> 
+                <div id="nome">                
+                    </div>               
+                <div id="msg">
+                    </div>   
+            </div>
+            <button id="botao" onclick="resultado()" class="butao-resultado">Resultado</button>
+        </section>
+
+        <footer>
+            <p><i>&copy; Curso em Video By John Erick</i></p>
+        </footer>
+        
+        <script src="./financas.js"></script> <br>
+    </body>
+</html>

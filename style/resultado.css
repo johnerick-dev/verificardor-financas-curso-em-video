@@ -1,0 +1,22 @@
+#resultado {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    height: 100px;
+    margin: auto;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18pt;
+    border-radius: 10px;
+}
+.butao-resultado {
+    display: flex;
+    width: 150px;
+    height: 35px;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16pt;
+}

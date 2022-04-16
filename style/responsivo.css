@@ -1,0 +1,24 @@
+@media (max-width: 1040px) {
+    body {
+        width: 540px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .modelo {
+        display: flex;
+        flex-direction: column;
+        margin: 0; 
+    }
+    .form1 {
+        margin-bottom: 0.3rem;
+    }
+    #resultado {
+        width: 31rem;
+        font-size: 15pt;
+    }
+    .butao-resultado {
+        margin-top: 1rem;
+    }    
+}
